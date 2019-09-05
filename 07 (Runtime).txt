@@ -1,0 +1,36 @@
+-- 7 Billion Humans (2214M) --
+-- 7: Collation Station --
+
+step s
+step s
+if c == datacube:
+	pickup c
+	jump a
+else:
+	step s
+endif
+if c == datacube:
+	pickup c
+	jump b
+else:
+	step s
+endif
+if c == datacube:
+	pickup c
+	jump c
+else:
+	step s
+endif
+pickup c
+jump d
+a:
+step s
+b:
+step s
+c:
+step s
+d:
+step s
+drop
+
+
